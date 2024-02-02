@@ -1,0 +1,4 @@
+﻿Scaffold-DbContext "Server=;Database=;Trusted_Connection=false;User Id=atyon;Password=;" Microsoft.EntityFrameworkCore.SqlServer -f -DataAnnotations -Project "Atyon"  -OutputDir "DTO" -Schemas "dbo" -Context "AtyonDataContext"
+//Api'de oluşturduğum dto dosyası için geçerli. Aralarındaki fark, biri Atyon.Data projesi diğeri Atyon. 
+
+Scaffold-DbContext "Server=;Database=;Trusted_Connection=false;User Id=atyon;Password=;" Microsoft.EntityFrameworkCore.SqlServer -f -DataAnnotations -Project "Atyon.Data"  -OutputDir "DTO" -Schemas "dbo" -Context "AtyonDataContext"
